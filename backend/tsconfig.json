@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+     "lib": [
+        "es5",
+        "es6",
+     ],
+     "moduleResolution": "node16",
+     "module": "commonjs",
+     "target": "esnext",
+     "outDir": "./dist",
+     "emitDecoratorMetadata": true,
+     "experimentalDecorators": true,
+     "sourceMap": true,
+     "esModuleInterop": true,
+     "allowJs": true
+  },
+  "exclude": ["src/migration/*"],
+  "include": ["src/**/*"],
+}
